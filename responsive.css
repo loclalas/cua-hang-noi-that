@@ -1,0 +1,207 @@
+/**************************/
+/* (Smaller desktops) */
+/**************************/
+
+@media (max-width: 1300px) {
+  .main-nav-logo {
+    display: none;
+  }
+
+  .hero {
+    max-width: 100rem;
+    padding: 3.6rem 0 7.2rem 0;
+    gap: 6rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .hero-description {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .btn-shop,
+  .btn-learn-more {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .feedback-img {
+    width: 3.6rem;
+  }
+
+  .feedback-text {
+    font-size: 1.8rem;
+    margin-left: -4rem;
+  }
+
+  .feature-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .feature-center {
+    max-width: 100rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buy-now-btn {
+    font-size: 1.6rem;
+    padding: 1.4rem 0;
+    width: 16rem;
+  }
+
+  .section-brand {
+    margin-top: 0rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+  .cta-text {
+    font-size: 1.6rem;
+  }
+
+  .cta-form label {
+    font-size: 1.6rem;
+  }
+
+  .footer-container {
+    max-width: 100rem;
+  }
+
+  .contact-heading,
+  .account-heading,
+  .company-heading {
+    font-size: 2rem;
+  }
+
+  .cta-container {
+    max-width: 100rem;
+  }
+
+  .footer-container ul {
+    font-size: 1.6rem;
+  }
+}
+
+/**************************/
+/* Tablets  */
+/**************************/
+
+@media (max-width: 1000px) {
+  .main-nav-logo {
+    display: none;
+  }
+
+  .hero {
+    max-width: 70rem;
+  }
+
+  .btn-shop {
+    margin-bottom: 2rem;
+    padding: 1.2rem 4rem;
+  }
+
+  .feedback-text {
+    font-size: 1.8rem;
+    margin-left: 3rem;
+  }
+
+  .feature-center {
+    max-width: 70rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-container {
+    max-width: 70rem;
+  }
+
+  .footer-container {
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    padding: 0 10rem;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .toggle-nav-btn {
+    display: flex;
+  }
+
+  .hero {
+    max-width: 50rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero-img-box {
+    display: none;
+  }
+
+  .feedback {
+    margin-top: 5rem;
+  }
+
+  .feature-center {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 50rem;
+  }
+
+  .section-brand {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+
+  .logos img {
+    height: 1.8rem;
+  }
+
+  .logos .img-responsive {
+    display: none;
+  }
+
+  .cta {
+    max-width: 50rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cta-img-box {
+    display: none;
+  }
+
+  .footer-container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0;
+    gap: 2rem;
+  }
+
+  .contact-heading,
+  .account-heading,
+  .company-heading {
+    font-size: 1.4rem;
+  }
+
+  .footer-container ul,
+  .address,
+  .phone-number,
+  .copyrigt {
+    font-size: 1.2rem;
+  }
+}

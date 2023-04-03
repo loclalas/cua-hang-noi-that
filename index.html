@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <script type="module" src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/742d1685ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Cửa hàng nội thất</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="toggle-nav-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="index.html" class="main-nav-link">Trang Chủ</a>
+          </li>
+          <li>
+            <a href="products.html" class="main-nav-link">Sản Phẩm</a>
+          </li>
+          <li>
+            <a href="about.html" class="main-nav-link">Về Chúng Tôi</a>
+          </li>
+        </ul>
+      </nav>
+
+      <img src="img/Brand/brand-nav.svg" alt="" class="main-nav-logo" />
+
+      <div class="toggle-container">
+        <button class="toggle-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+
+        <span class="cart-item-count">0</span>
+      </div>
+    </header>
+
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Sống thông minh, thiết kế thông minh</h1>
+          <p class="hero-description">
+            Chúng tôi cung cấp cho bạn chất lượng với sự tín nhiệm hoàn hảo Đưa
+            bạn đến thế giới mơ ước của bạn với nhà thiết kế nội thất
+          </p>
+
+          <a href="" class="btn-shop">Mua ngay</a>
+          <a href="" class="btn-learn-more">Tìm hiểu thêm</a>
+
+          <div class="feedback">
+            <div class="feedback-img-box">
+              <img
+                src="img/custom/customer-1.jpg"
+                alt=""
+                class="feedback-img"
+              />
+              <img
+                src="img/custom/customer-2.jpg"
+                alt=""
+                class="feedback-img"
+              />
+              <img
+                src="img/custom/customer-3.jpg"
+                alt=""
+                class="feedback-img"
+              />
+              <img
+                src="img/custom/customer-4.jpg"
+                alt=""
+                class="feedback-img"
+              />
+              <img
+                src="img/custom/customer-5.jpg"
+                alt=""
+                class="feedback-img"
+              />
+              <img
+                src="img/custom/customer-6.jpg"
+                alt=""
+                class="feedback-img"
+              />
+            </div>
+            <p class="feedback-text">
+              <span>Hơn 100.000</span> khách hàng đã tin dùng
+            </p>
+          </div>
+        </div>
+        <div class="hero-img-box">
+          <img src="img/img2.avif" alt="" class="hero-img" />
+          <img src="img/img4.jpg" alt="" class="hero-img" />
+          <img src="img/img5.jpg" alt="" class="hero-img" />
+          <img src="img/img3.jpg" alt="" class="hero-img" />
+        </div>
+      </div>
+    </section>
+
+    <div class="sidebar-overlay">
+      <div class="sidebar">
+        <button class="sidebar-button">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <ul class="nav-sidebar">
+          <li class="nav-sidebar-list">
+            <i class="fa-solid fa-house"></i>
+            <a href="#" class="side-bar-link">Trang chủ</a>
+          </li>
+          <li class="nav-sidebar-list">
+            <i class="fa-solid fa-couch"></i
+            ><a href="#" class="side-bar-link">Sản phẩm</a>
+          </li>
+          <li class="nav-sidebar-list">
+            <i class="fa-solid fa-book"></i
+            ><a href="#" class="side-bar-link">Về chúng tôi</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cart-overlay">
+      <div class="cart">
+        <button class="cart-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <headear class="cart-hearder">
+          <h1 class="cart-text">Giỏ của bạn</h1>
+        </headear>
+        <div class="cart-items">
+          <!-- <article class="cart-item">
+            <img
+              src="img/cartItem/MSXCAbxy_o.jpeg"
+              alt=""
+              class="cart-item-img"
+            />
+            <div>
+              <h1 class="cart-item-name">Albany Table</h1>
+              <p class="cart-item-price">79,99 $</p>
+              <button class="cart-item-remove-btn">Remove</button>
+            </div>
+
+            <div>
+              <button class="cart-item-increase" data-id="">
+                <i class="fa-solid fa-chevron-up"></i>
+              </button>
+              <p class="cart-item-amount" data-id="">1</p>
+              <button class="cart-item-decrease" data-id="">
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+          </article> -->
+        </div>
+        <footer>
+          <h3 class="cart-total">0.00 $</h3>
+          <button class="cart-checkout">Check Out</button>
+        </footer>
+      </div>
+    </div>
+
+    <section class="section-feature">
+      <div class="feature-title">Sản phẩm bán chạy</div>
+      <div class="feature-center">
+        <h2 class="section-loading">Quý khách vui lòng đợi một chút...</h2>
+        <!-- <article class="product">
+          <div class="product-container">
+            <img src="img/img2.avif" alt="" class="product-img img" />
+            <div class="product-icons">
+              <a href="product.html?id=123213" class="product-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+              <button class="product-cart-btn product-icon" data-id="${id}">
+                <i class="fas fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+          <footer>
+            <p class="product-name">Ghế</p>
+            <h4 class="product-price">$ 9</h4>
+          </footer>
+        </article> -->
+      </div>
+      <a href="products.html" class="buy-now-btn">Mua hàng ngay</a>
+    </section>
+
+    <section class="section-brand">
+      <div class="brand-container">
+        <h2 class="heading-brand-in">As featured in</h2>
+        <div class="logos">
+          <img
+            src="img/logos/techcrunch.png"
+            alt="Techcrunch logo"
+            class="img-responsive"
+          />
+          <img
+            src="img/logos/business-insider.png"
+            alt="Business Insider logo"
+          />
+          <img
+            src="img/logos/the-new-york-times.png"
+            alt="The New York Times logo"
+          />
+          <img src="img/logos/forbes.png" alt="Forbes logo" />
+          <img src="img/logos/usa-today.png" alt="USA Today logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta">
+      <div class="cta-container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="cta-heading">Đăng ký để nhận những ưu đãi!</h2>
+            <p class="cta-text">
+              Thiết kế bền vững. Tương lai bền vững Mang lại sức sống cho nội
+              thất. Chúng tôi sáng tạo, bạn tận hưởng.
+            </p>
+            <form action="#" class="cta-form">
+              <div>
+                <label for="full-name">Họ và tên</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  placeholder="Phan Thanh Lộc"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="loclalas@gmail.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="full-name">Bạn biết chúng tôi từ đâu?</label>
+                <select name="" id="select-where">
+                  <option value="">Lựa chọn</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Youtube">Youtube</option>
+                  <option value="Friend">Bạn bè</option>
+                  <option value="Podcast">Podcast</option>
+                  <option value="Other">Khác</option>
+                </select>
+              </div>
+              <div>
+                <button class="cta-button">Đăng ký</button>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="cta-img-box"></div> -->
+          <img src="img/img1.jpg" alt="" class="cta-img-box" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="img/Brand/brand.jpg" alt="" class="img-logo" />
+          <div class="col-logo">
+            <ul class="social-media">
+              <li><i class="fa-solid fa-message social-icon"></i></li>
+              <li><i class="fa-solid fa-envelope social-icon"></i></li>
+              <li><i class="fa-solid fa-users social-icon"></i></li>
+            </ul>
+          </div>
+          <p class="copyrigt">
+            Copyright © 2027 by Nhà Đẹp, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="contact">
+          <h1 class="contact-heading">Liên Lạc</h1>
+          <p class="address">Khu đô thị Trung Văn, Nam Từ Liêm, Hà Nội</p>
+          <p class="phone-number">0965160643</p>
+        </div>
+        <div class="account">
+          <h1 class="account-heading">Tài Khoản</h1>
+          <ul class="account-nav">
+            <li>Tạo tài khoản</li>
+            <li>Đăng ký</li>
+            <li>IOS</li>
+            <li>Android</li>
+          </ul>
+        </div>
+        <div class="company">
+          <h1 class="company-heading">Công Ty</h1>
+          <ul class="company-nav">
+            <li>Về chúng tôi</li>
+            <li>Đối tác</li>
+            <li>Khách hàng</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
